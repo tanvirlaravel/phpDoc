@@ -12,6 +12,8 @@
 	  <a href="<?= $path ?>/Data/Variable_scope.php" class="list-group-item list-group-item-action">Variable scope </a>
 
 	  <a href="<?= $path ?>/Data/VariablesFromExternalSources.php" class="list-group-item list-group-item-action">Variables From External Sources </a>
+	  
+	  <a href="<?= $path ?>/Data/constant.php" class="list-group-item list-group-item-action">Constant</a>
 
 	  
 	</div>

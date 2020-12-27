@@ -10,6 +10,7 @@
     <h3>Defination</h3>
 
     <p>The scope of a variable is the part of the script where the variable can be referenced/used.</p>
+    <p>Scope can be defined as the range of availability a variable has to the program in which it is declared.</p>
 
     <p>PHP has three different variable scopes:</p>
 
@@ -17,6 +18,7 @@
         <li>local</li>
         <li>global</li>
         <li>static</li>
+        <li>Function parameters</li>
     </ul>
     <br>
 
@@ -95,6 +97,19 @@
 </pre>
 <p>Then, each time the function is called, that variable will still have the information it contained from the last time the function was called.</p>
 <p>The variable is still local to the function.</p>
+
+<h3>Function parameters</h3>
+<p>function is a small unit of program which can take some input in the form of parameters and does some processing and may return a some value.</p>
+<p>Function parameters are declared after the function name and inside parentheses</p>
+
+<pre class="text-warning bg-dark py-2">
+    function multiply ($value) {
+        $value = $value * 10;
+        return $value;
+    }
+   
+   $retval = multiply (10);
+</pre>
 
 </div>
 
