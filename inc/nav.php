@@ -8,7 +8,11 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item dropdown">
-                <a class="nav-link" href="<?= $path ?>/Data_Types/data_types.php"> Data & Types </a>                
+                <a class="nav-link" href="<?= $path ?>/Data/data.php"> Data</a>                
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="<?= $path ?>/Data_Types/data_types.php">Data Types</a>                
             </li>
 
             <li class="nav-item dropdown">
