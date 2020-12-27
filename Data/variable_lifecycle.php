@@ -3,8 +3,6 @@
 <div class="row">
 
 
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
 
 <div class="col-md-9">
 
@@ -59,9 +57,9 @@
 For arrays, this is important because accessing a non-existent array item can trigger errors; you may want to test arrays and array items for existence with isset before using them.</p>
 
 
+</div>
 
-
-
+<?php require_once __DIR__ . "/sidebar.php"; ?>
 
 </div>
 

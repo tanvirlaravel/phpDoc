@@ -2,10 +2,6 @@
 
 <div class="row">
 
-
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
-
 <div class="col-md-9">
 
 	<h3 class="text-center display-4">Variable</h3>
@@ -44,7 +40,7 @@
     <p>In PHP 7, type declarations were added. This gives an option to specify the data type expected when declaring a function, and by enabling the strict requirement, it will throw a "Fatal Error" on a type mismatch.</p>	
 
 </div>
-
+<?php require_once __DIR__ . "/sidebar.php"; ?>
 </div>
 
 <?php require_once __DIR__ . "/../inc/footer.php"; ?>

@@ -2,10 +2,6 @@
 
 <div class="row">
 
-
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
-
 <div class="col-md-9">
 
 	<h3 class="text-center display-4">Variables From External Sources </h3>
@@ -29,7 +25,11 @@ Dots and spaces in variable names are converted to underscores. For example &lt;
    <li><code> $_REQUEST</code></li>
 </ul>
 
-   
+ </div>
+
+ <?php require_once __DIR__ . "/sidebar.php"; ?>
+
+
 </div>
 
 <?php require_once __DIR__ . "/../inc/footer.php"; ?>

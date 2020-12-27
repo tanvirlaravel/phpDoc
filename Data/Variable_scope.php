@@ -3,9 +3,6 @@
 <div class="row">
 
 
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
-
 <div class="col-md-9">
 
 	<h3 class="text-center display-4">Variable scope</h3>
@@ -99,7 +96,10 @@
 <p>Then, each time the function is called, that variable will still have the information it contained from the last time the function was called.</p>
 <p>The variable is still local to the function.</p>
 
-   
+</div>
+
+<?php require_once __DIR__ . "/sidebar.php"; ?>
+
 </div>
 
 <?php require_once __DIR__ . "/../inc/footer.php"; ?>

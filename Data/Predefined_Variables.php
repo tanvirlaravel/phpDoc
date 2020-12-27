@@ -3,8 +3,6 @@
 <div class="row">
 
 
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
 
 <div class="col-md-9">
 
@@ -34,7 +32,9 @@
 
     <p><a href="https://www.php.net/manual/en/reserved.variables.php" class="text-danger" target="_blank">Link</a></p>
 
+</div>
 
+<?php require_once __DIR__ . "/sidebar.php"; ?>
 </div>
 
 <?php require_once __DIR__ . "/../inc/footer.php"; ?>

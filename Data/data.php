@@ -2,10 +2,6 @@
 
 <div class="row">
 
-
-<?php require_once __DIR__ . "/sidebar.php"; ?>
-
-
 <div class="col-md-9">
 
 	<h3 class="text-center display-4">Data</h3>
@@ -62,6 +58,9 @@ For the decision to be meaningful, the processed data must qualify for the follo
 </ul>
 
 </div>
+
+
+<?php require_once __DIR__ . "/sidebar.php"; ?>
 
 </div>
 
