@@ -10,12 +10,54 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
 
+
+        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" >
+                w3schools
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/theory.php">Theory</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_intro.php">Intro</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_syntax.php">Syntext</a>
+                   
+                </div>
+            </li>
+
+          
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" >
+                    Tutorial Points
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/theory.php">Theory</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/variable.php">Variable</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/variable-types.php">Variable Types</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/DecisionMaking.php">Decision Making</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/Loop.php">Loop</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/Arrays.php">Arrays</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/WebConcepts.php">Web Concepts</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/GET_POST.php">GET & POST</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/FileInclusion.php">File Inclusion</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/Functions.php">Functions</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/Cookies.php">Cookies</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/Sessions.php">Sessions</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/FileUploading.php">File Uploading</a>
+                    <hr>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/PredefinedVariables.php">Predefined Variables</a>
+                    <a class="dropdown-item" href="<?= $path ?>/tutorialpoints/OOP.php">OOP</a>
+                </div>
+            </li>
+
+            
+
             <li class="nav-item dropdown">
                 <a class="nav-link" href="<?= $path ?>/Data/data.php"> Data</a>                
             </li>
 
+            
+
             <li class="nav-item dropdown">
-                <a class="nav-link" href="<?= $path ?>/Data_Types/data_types.php">Data Types</a>                
+                <a class="nav-link" href="<?= $path ?>/DataTypes/data_types.php">Data Types</a>                
             </li>          
 
 
