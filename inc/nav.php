@@ -19,6 +19,10 @@
                     <a class="dropdown-item" href="<?= $path ?>/w3schools/theory.php">Theory</a>
                     <a class="dropdown-item" href="<?= $path ?>/w3schools/php_intro.php">Intro</a>
                     <a class="dropdown-item" href="<?= $path ?>/w3schools/php_syntax.php">Syntext</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_comments.php">Comments</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_variables_scope.php">Variable Scope</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_numbers.php">Numbers</a>
+                    <a class="dropdown-item" href="<?= $path ?>/w3schools/php_functions.php">Function</a>
                    
                 </div>
             </li>
